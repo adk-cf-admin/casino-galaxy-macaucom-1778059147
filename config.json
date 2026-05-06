@@ -36,10 +36,10 @@
             }
         },
         "icons": {
-            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7260"
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7275"
         },
         "header": {
-            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7261",
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7276",
             "imageSizeModifier": 0,
             "imageYModifier": 0,
             "imageXModifier": 0,
@@ -50,7 +50,7 @@
             "playNow": "Play Now"
         },
         "footer": {
-            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7262",
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7277",
             "imageSizeModifier": 0,
             "imageYModifier": 0,
             "imageXModifier": 0,
