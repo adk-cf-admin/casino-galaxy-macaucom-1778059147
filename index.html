@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1778057320-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Galaxy Macau — Luxury Casino Resort in Macau</title>
+    <meta name="description"
+          content="Discover Galaxy Macau through verified resort information, brand-focused insights, and a clear guest-oriented overview of our casino destination.">
+    <link rel="canonical" href="https://casino-galaxy-macau.com">
+    <meta property="og:title" content="Galaxy Macau — Luxury Casino Resort in Macau">
+    <meta property="og:description"
+          content="Discover Galaxy Macau through verified resort information, brand-focused insights, and a clear guest-oriented overview of our casino destination.">
+    <meta property="og:url" content="https://casino-galaxy-macau.com">
+    <meta property="og:site_name" content="Galaxy Macau — Luxury Casino Resort in Macau">
+    <meta property="og:locale" content="en">
+    <meta property="og:image" content="_assets/images/1778057398-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="casino-galaxy-macau.com">
+    <meta name="twitter:title" content="Galaxy Macau — Luxury Casino Resort in Macau">
+    <meta name="twitter:description"
+          content="Discover Galaxy Macau through verified resort information, brand-focused insights, and a clear guest-oriented overview of our casino destination.">
+    <meta name="twitter:image" content="_assets/images/1778057398-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1778057484-faviucon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en">
+
+    <link rel="apple-touch-icon" href="_assets/images/1778057313-faviucon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1778057313-faviucon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1778057509-main.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://casino-galaxy-macau.com" />
+    <link rel="alternate" hreflang="en" href="https://casino-galaxy-macau.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#A37C3C"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#F3BE4B"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#ffd500"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#A37C3C"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#F3BE4B"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#000000"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://casino-galaxy-macau.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1778057320-logo.svg" alt="Galaxy Macau Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Sign Up" id="navSignUp"> Sign Up </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Play Now" id="navPlayNow"> Play Now </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Galaxy Macau Casino Resort</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">More Info</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Verified resort information</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Guest-focused casino overview</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Strong integrated destination</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Clear analytical presentation</p>
+                                </li>
+                                <li class="providersGroup"></li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Galaxy Macau Mobile App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1778057589-mobile.webp" title="Galaxy Macau Mobile"
+                                alt="Galaxy Macau Mobile App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Galaxy Macau Mobile App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Galaxy Macau Mobile App" title="Galaxy Macau Mobile App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About the Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Galaxy Macau is our luxury integrated casino resort destination in Cotai, Macau, created with an Asian heart and designed for guests who want gaming, hospitality, dining, shopping, entertainment, and leisure in one connected resort environment. Our destination opened on May 15, 2011, with three hotel brands: Banyan Tree Macau, Hotel Okura Macau, and Galaxy Hotel.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Our resort covers over 1.1 million square meters.</li>
+                                        <li class="historyItem">Our guests can access around 5,000 rooms, suites, and villas.</li>
+                                        <li class="historyItem">Our Grand Resort Deck covers 75,000 square meters.</li>
+                                    </ul>
+                                    <p class="historyDescription">Our casino resort expanded with Phase 2, launched on May 27, 2015, bringing Galaxy Macau and Broadway Macau to more than 1.1 million square meters. </p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1778057664-desktop.webp" alt="Galaxy Macau" title="Galaxy Macau Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">This stage added The Ritz-Carlton, Macau, JW Marriott Macau, and Broadway Hotel, strengthening our position as a major integrated resort destination for both leisure travelers and casino guests.Our resort continued to develop with Phase 3, including Raffles at Galaxy Macau, Galaxy International Convention Center, Galaxy Arena, and Andaz Macau. These additions support our broader entertainment, events, lifestyle, and hospitality offering, giving our guests more ways to enjoy Macau through one premium destination.
+
+Today, our casino resort combines 8 world-class luxury hotels and offers around 5,000 rooms, suites, and villas. Our guests can enjoy the 75,000-square-meter Grand Resort Deck, which features the 575-meter Skytop Adventure Rapids, the largest Skytop Wave Pool, and a 150-meter white sand beach, along with Galaxy Promenade and a wide selection of dining and shopping experiences.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Galaxy Momentum</h2>
+                        <div class="historyDescription"><p>With us, our casino is part of Galaxy Macau, a world-class luxury integrated resort destination in Macau with an Asian heart. We bring gaming, resort comfort, dining, shopping, entertainment, art, and leisure together in one confident experience. Our casino energy is supported by Galaxy Entertainment Group, one of the world’s leading resorts, hospitality, and gaming companies. Through Galaxy Casino S.A., we operate within Macau’s official gaming framework and welcome guests into a polished, vibrant resort environment.</p> <br> <p>We build the guest journey around the “World Class, Asian Heart” service philosophy. That means every visit with us is shaped by attentive hospitality, refined surroundings, and the pleasure of moving easily from one experience to another.</p> <br> <p>At our establishment, the gaming visit can be only the beginning. Guests can step from the casino atmosphere into luxury hotels, celebrated restaurants, immersive entertainment, premium shopping, resort attractions, and elegant relaxation spaces. Our Galaxy Macau setting on Cotai gives visitors the feeling of a complete destination. We are designed for guests who want a full Macau experience without needing to separate gaming, dining, entertainment, and leisure into different trips.</p> <br> <p>We offer around 5,000 rooms, suites, and villas across our world-class hotel portfolio, giving guests many ways to extend their stay with us. The resort experience stays consistent: comfort, style, and access to a wide range of on-site attractions.</p> <br> <p>Our Grand Resort Deck adds a strong leisure advantage to the Galaxy Macau experience. With 75,000 square meters of resort space, it brings water attractions, gardens, dining, and relaxation into the same destination as our casino.</p> <br> <p>The Grand Resort Deck includes the world’s longest Skytop Adventure Rapids at 575 meters and the world’s largest Skytop Wave Pool covering 8,000 square meters. These signature attractions give our resort a distinctive energy beyond the casino floor.</p> <br> <p>We also give guests a beach-style escape with white sand beaches at the resort deck. The setting allows visitors to combine gaming excitement with open-air leisure, water fun, and relaxed resort time. Dining is one of our strongest advantages. With more than 120 dining options across Galaxy Macau, we make it easy for guests to choose between fine dining, Macau flavors, Chinese regional cuisines, international dishes, cafés, bars, and lounges.</p> <br> <p>Our culinary world includes Michelin-starred dining and authentic delicacies featuring 18 Chinese provincial cuisines and 13 international cuisines. With us, the pleasure of a casino visit can naturally continue into a memorable meal.</p> <br> <p>Galaxy Promenade adds a luxury shopping dimension to our establishment. Across 100,000 square meters, we bring together more than 200 world-renowned brands, giving guests a premium retail experience close to the resort’s gaming, dining, and hotel spaces.</p> <br> <p>With Galaxy Ultimate, we make our guest relationship more rewarding through an electronic membership available through the WeChat Mini Program. Members can enjoy privileges at their fingertips, including discounts and selected offers across resort experiences. Galaxy Ultimate helps us add extra value to each visit. Members can unlock welcome offers, dining benefits, spa privileges, Broadway Theatre ticket advantages, online events, and prizes such as luxury hotel stays, dining coupons, and limited-edition gifts.</p> <br> <p>Entertainment is part of our rhythm. Galaxy Arena, G Box, Galaxy Cinemas, the Diamond Show, the Crystal Lobby Show, and Laserama create multiple ways to enjoy the resort before or after the casino experience.</p> <br> <p>We also bring art into the guest journey through GalaxyArt, a permanent contemporary art space on the first floor of Galaxy Promenade. With exhibitions, installations, immersive experiences, and workshops, we make discovery part of the visit.</p> <br> <p>Our casino belongs to a destination that balances excitement and sophistication. Guests can feel the pulse of gaming, then continue into dining, shopping, art, wellness, shows, cinema, and resort leisure without leaving the Galaxy Macau setting.</p> <br> <p>Every part of our establishment is designed to give visitors choice. Whether the priority is casino energy, a luxury stay, an elegant dinner, a resort-deck afternoon, or a night of entertainment, we make the experience smooth and full of possibilities.</p> <br> <div style="width:100%; max-width:100%; overflow:hidden;"> <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+<tr>
+  <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Confirmed advantage
+  </th>
+  <th style="width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Macau detail
+  </th>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Licensed gaming group
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Entertainment Group develops and operates integrated resort, retail, dining, hotel, and gaming facilities in Macau.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Gaming concession
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Casino S.A. holds a Macau gaming concession valid from January 1, 2023, to December 31, 2032.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Resort scale
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Macau combines world-class luxury hotels and offers around 5,000 rooms, suites, and villas.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Grand Resort Deck
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    The Grand Resort Deck spans 75,000 square meters and features a 575-meter Skytop Adventure Rapids, an 8,000-square-meter Skytop Wave Pool, and white sand beaches.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Dining choice
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    The resort offers over 120 dining options, including Michelin-starred dining, 18 Chinese provincial cuisines, and 13 international cuisines.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Promenade
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Promenade is a 100,000-square-meter luxury lifestyle shopping destination with more than 200 world-renowned brands.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Ultimate
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Ultimate is the electronic membership of Galaxy Macau, offering privileges through the WeChat Mini Program.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    GalaxyArt
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    GalaxyArt is a permanent contemporary art space on the first floor of Galaxy Promenade, spanning over 6,500 sq. ft., with free admission.
+  </td>
+</tr>
+</table> </div> <br> <p>After the table, our Galaxy Macau experience continues with the same focus on variety and ease. We give guests a destination where casino excitement can naturally lead into dining, shopping, art, relaxation, and live entertainment. Our resort scale helps visitors plan the day around their own rhythm. A guest can enjoy our casino, pause for a Michelin-recognized meal, explore Galaxy Promenade, and return to the atmosphere of Galaxy Macau without losing momentum.</p> <br> <p>We make the stay especially attractive for guests who value convenience. Instead of treating entertainment, dining, leisure, and hotel comfort as separate choices, we connect them through one integrated resort experience. With Galaxy Ultimate, we keep the relationship with our guests active and rewarding. The membership brings offers, discounts, and resort privileges into one digital channel, making it simple to discover more value with us.</p> <br> <p>Our Grand Resort Deck gives Galaxy Macau a resort identity that feels bright, social, and memorable. It adds open-air leisure to the casino journey and creates a strong reason to spend more time with us.</p> <br> <p>We also make culture and creativity part of the visit through GalaxyArt. Guests who enjoy visual discovery can find contemporary exhibitions and immersive works right inside the Galaxy Promenade environment. Our casino stands within a destination built for complete enjoyment. We combine the energy of gaming with the comfort of luxury hospitality, the flavor of international dining, the polish of premium shopping, and the spectacle of entertainment.</p></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Easy Galaxy</h2>
+                        <div class="historyDescription"><p>With us, visiting Galaxy Macau is designed to feel practical, connected, and enjoyable from the first moment. Our establishment is located in Cotai, Macau, with strong transport links and clear access for guests arriving from major points around the city.</p> <br> <p>Our official address is Galaxy Macau Integrated Resort, Estrada da Baia de Nossa Senhora da Esperanca, s/n, Cotai, Macau. This Cotai location places our casino within one of Macau’s major resort and entertainment areas.</p> <br> <p>We make arrival smoother with complimentary shuttle buses. Guests can use our shuttle service to travel to and from Galaxy Macau, including routes connected with StarWorld Hotel, Broadway Macau, Border Gate, ferry terminals, the airport, Hengqin Port, and the Hong Kong-Zhuhai-Macau Bridge.</p> <br> <p>For visitors coming through Border Gate, our shuttle route runs between Border Gate and Galaxy Macau. This gives guests a simple way to reach our casino and resort from one of Macau’s busiest entry points.</p> <br> <p>We also connect with Taipa Ferry Terminal, Macau International Airport, Hengqin Port, and Macau Ferry Terminal routes. These transport links help our guests build a smooth arrival plan, whether the visit begins by ferry, plane, bridge, or land crossing. Inside the resort, the practical experience continues through dining variety. Guests can explore restaurants and bars across different styles, including contemporary Italian cuisine, classic Cantonese dining, Japanese fine dining, cafés, lounge concepts, and relaxed local flavors.</p> <br> <p>Our restaurant list includes names such as 8½ Otto e Mezzo BOMBANA, Lai Heen, Sushi Kissho by Miyakawa at Raffles at Galaxy Macau, Teppanyaki Shou, House of Origin, CHA BEI, Pak Loh Chiu Chow Restaurant, Bei Shan Lou, Yamazato Japanese Fine Dining, and Long Bar.</p> <br> <p>Long Bar at Raffles at Galaxy Macau brings a sophisticated bar experience to our resort. It is presented as the world’s first Raffles speakeasy to carry the Long Bar name and features classic cocktails alongside Macau-exclusive drinks.</p> <br> <p>Galaxy Cinemas gives guests another way to extend the visit. We offer cinema hours from 10:30 to midnight Monday to Friday, and from 9:00 to midnight on Saturdays, Sundays, and public holidays. For live and flexible entertainment, G Box gives us an intimate black box venue. It can host up to 850 guests and adapts to stand-up comedy, live music, family theater, private events, and different performance setups.</p> <br> <p>Galaxy Arena adds a large-scale events dimension to our establishment. The venue is part of the Galaxy Macau entertainment offering and is used for concerts, sports, and major shows listed through our official tickets and shows program.</p> <br> <p>We also bring free visual spectacle into the resort environment. Laserama lights up Galaxy Macau outdoors with state-of-the-art beams synchronized with music, while the Diamond Show and Crystal Lobby Show create signature moments inside our lobby spaces. The Diamond Show takes place in the Diamond Lobby and combines light, sound, water, and visual artistry. It is one of the resort experiences that gives visitors a memorable pause before or after time at our casino.</p> <br> <p>The Crystal Lobby Show adds another theatrical moment with 380,000 precision-cut crystals, 146,000 individually programmed points of light, rotating chandeliers, a kinetic ceiling, music, and fountain effects.</p> <br> <p>For guests who want wellness during their stay, our spa and relaxation offering includes Banyan Tree Spa Macau, The Ritz-Carlton Spa, Macau, and Foot Hub. These spaces bring calm, therapeutic treatments, and premium comfort into the Galaxy Macau experience.</p> <br> <p>Banyan Tree Spa Macau is located in Banyan Tree Macau and spans 3,400 square meters. With a wide menu of treatments and professional therapists, it supports the resort’s role as a complete holiday destination.</p> <br> <p>We also take responsible gaming seriously as part of our guest experience. Galaxy Entertainment Group was among the first integrated resort enterprises in Macau to have its casinos pass the Responsible Gambling Performance Indicators set by the Macau SAR Government.</p> <br> <p>Casino Galaxy Macau, Casino StarWorld, and Casino Broadway were recognized as “Responsible Gaming Implementation Model Units” in 2022 and 2023. With us, entertainment is supported by a structured responsible gaming approach.</p> <br> <p>Our practical strength is simple: guests can arrive easily, move around the resort comfortably, enjoy dining and bars, add shows or cinema, relax at the spa, and experience our casino within one connected Galaxy Macau destination.</p> <br> <div style="width:100%; max-width:100%; overflow:hidden;"> <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+<tr>
+  <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Confirmed information
+  </th>
+  <th style="width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Useful detail
+  </th>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Address
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Macau Integrated Resort, Estrada da Baia de Nossa Senhora da Esperanca, s/n, Cotai, Macau.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    General transport
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Macau is located in Cotai, Macau, with transport links including complimentary shuttle bus service, taxis, and public buses.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Border Gate shuttle
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    The Border Gate route to and from Galaxy Macau operates from 09:00 to 23:30, with an average frequency of 5–15 minutes and around 25 minutes’ drive.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Taipa Ferry Terminal shuttle
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Shuttle service from Taipa Ferry Terminal to Galaxy Macau runs 09:00–23:00, and from Galaxy Macau 09:15–23:15.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Airport shuttle
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    The Macau International Airport route to Galaxy Macau runs 10:00–21:00, and from Galaxy Macau 10:15–20:45.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Galaxy Cinemas
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Operation hours are Monday to Friday 10:30–00:00, and Saturday, Sunday, and public holidays 09:00–00:00.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    G Box
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    G Box hosts up to 850 guests and is located at 1003, 1/F, Pearl Lobby.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Laserama
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Laserama takes place outdoors at Galaxy Macau from 19:45 to 22:15, every 30 minutes daily.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Responsible gaming
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Casino Galaxy Macau was recognized as a “Responsible Gaming Implementation Model Unit” in 2022 and 2023.
+  </td>
+</tr>
+</table> </div> <br> <p>After the table, our practical advantages remain centered on convenience. We help guests reach our casino through well-defined transport routes and then give them enough on-site variety to keep the visit flowing smoothly. Our Cotai address places Galaxy Macau in a resort district made for entertainment, hospitality, and leisure. Guests can arrive for gaming and naturally discover restaurants, bars, shows, cinema, shopping, and spa experiences in the same destination.</p> <br> <p>The complimentary shuttle network gives our establishment strong access from key Macau arrival points. This makes our casino experience easier to plan for visitors coming through Border Gate, ferry terminals, the airport, Hengqin Port, or connected Galaxy properties.</p> <br> <p>Dining adds another layer of comfort to the guest journey. Whether visitors want a refined meal, a lounge experience, a café stop, Japanese cuisine, Cantonese fine dining, or Italian flavors, we keep strong choices close to the casino environment.</p> <br> <p>Our entertainment schedule and venues give each visit a sense of occasion. From large-scale shows at Galaxy Arena to intimate performances at G Box and cinematic comfort at Galaxy Cinemas, we give guests many ways to shape the evening.</p> <br> <p>We also make visual entertainment part of everyday resort movement. Laserama, the Diamond Show, and the Crystal Lobby Show create memorable moments that visitors can enjoy as part of the wider Galaxy Macau atmosphere. With responsible gaming recognition, spa facilities, premium transport access, and a wide on-site lifestyle offering, we make Galaxy Macau feel polished, practical, and complete for guests who want more than a single casino stop.</p></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_is_galaxy_macau"/><label
+                            class="faqLabel" for="what_is_galaxy_macau">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What is Galaxy Macau? </span></label>
+                        <div class="faqContent">
+                            <p>Galaxy Macau is our luxury integrated casino resort destination in Macau.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="when_did_galaxy_macau_open"/><label
+                            class="faqLabel" for="when_did_galaxy_macau_open">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> When did Galaxy Macau open? </span></label>
+                        <div class="faqContent">
+                            <p>Galaxy Macau opened on May 15, 2011.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_many_hotels_does_galaxy_macau_include"/><label
+                            class="faqLabel" for="how_many_hotels_does_galaxy_macau_include">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How many hotels does Galaxy Macau include? </span></label>
+                        <div class="faqContent">
+                            <p>Our resort combines 8 world-class luxury hotels.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_many_rooms_does_galaxy_macau_offer"/><label
+                            class="faqLabel" for="how_many_rooms_does_galaxy_macau_offer">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How many rooms does Galaxy Macau offer? </span></label>
+                        <div class="faqContent">
+                            <p>Our casino resort offers around 5,000 rooms, suites, and villas.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_major_leisure_feature_does_galaxy_macau_offer"/><label
+                            class="faqLabel" for="what_major_leisure_feature_does_galaxy_macau_offer">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What major leisure feature does Galaxy Macau offer? </span></label>
+                        <div class="faqContent">
+                            <p>Our guests can enjoy the 75,000-square-meter Grand Resort Deck.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://casino-galaxy-macau.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1778057341-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Galaxy Macau" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Galaxy Macau" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Galaxy Macau" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Galaxy Macau" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Galaxy Macau" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Galaxy Macau" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Galaxy Macau" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Galaxy Macau" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Galaxy Macau" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Galaxy Macau" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Galaxy Macau" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Galaxy Macau" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Galaxy Macau" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Galaxy Macau" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Galaxy Macau" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Galaxy Macau </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "Get Bonus";
+    var playNowText = "Play now";
+    var maximumAmountText = "Maximum amount";
+    var wagerText = "Wager";
+    var bonusCodeText = "Bonus Code";
+    var depositText = "";
+    var casinoName = "Galaxy Macau";
+</script>
+
+</body>
+</html>

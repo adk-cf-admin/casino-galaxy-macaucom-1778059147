@@ -1,0 +1,201 @@
+{
+    "globalSections": {
+        "styles": {
+            "bg": "#000000",
+            "lang-select-color": "#222829",
+            "bg-light": "#000000",
+            "welcome-bonus-bg": "#ffffff",
+            "top-games-hover-fg": "#deeadf",
+            "main-bg": "#f3f4f1",
+            "text": "#000000",
+            "text-black": "#ffffff",
+            "table-head": "#000000",
+            "text-head": "#ffffff",
+            "hero-title-text": "#222829",
+            "welcome-bonus-text": "#fb333d",
+            "yellow": "#A37C3C",
+            "yellow-button": "#F3BE4B",
+            "button-text": "#ffffff",
+            "main-button-text": "#ffffff",
+            "border-color": "#efefdc",
+            "casino-cards": "#ffffff",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#000033",
+            "providers-back": "#000000",
+            "faq-label": "#ffffff",
+            "bg-footer": "#000000",
+            "copyright": "#e7e7d5",
+            "starColor": "#ffd500",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "Inter",
+                "isCustom": false
+            }
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7260"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7261",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "logoAlt": "Galaxy Macau Logo"
+        },
+        "nav": {
+            "signUp": "Sign Up",
+            "playNow": "Play Now"
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7262",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "copyright": "Galaxy Macau"
+        }
+    },
+    "pages": [
+        {
+            "id": "en-en",
+            "path": "\/",
+            "name": "Английский",
+            "languageCode": "en",
+            "regionCode": "",
+            "isDefault": true,
+            "sections": {
+                "seo": {
+                    "name": "Galaxy Macau",
+                    "title": "Galaxy Macau — Luxury Casino Resort in Macau",
+                    "description": "Discover Galaxy Macau through verified resort information, brand-focused insights, and a clear guest-oriented overview of our casino destination.",
+                    "canonical": "casino-galaxy-macau.com",
+                    "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7263",
+                    "ogImageWidth": 1200,
+                    "ogImageHeight": 630,
+                    "twitterSite": "casino-galaxy-macau.com",
+                    "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7264"
+                },
+                "hero": {
+                    "title": "Galaxy Macau Casino Resort",
+                    "textDesktop": "Exclusive welcome offer of",
+                    "textMobile": "Exclusive welcome bonus of",
+                    "playGame": "Play game",
+                    "claimBonus": "Claim Bonus",
+                    "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7265",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": -2,
+                    "imageXModifier": 0,
+                    "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7266",
+                    "mobileImageSizeModifier": 0,
+                    "mobileImageYModifier": 2,
+                    "mobileImageXModifier": 0
+                },
+                "topCasino": {
+                    "topCasinoButtonText": "Claim Bonus",
+                    "title": "Top Casinos",
+                    "allCasino": "All Casino",
+                    "welcomeBonusText": "Welcome bonus"
+                },
+                "bonusDetails": {
+                    "title": "Bonus Details",
+                    "getBonusButtonText": "Get Bonus",
+                    "maximumAmountText": "Maximum amount",
+                    "wagerText": "Wager",
+                    "bonusCodeText": "Bonus Code",
+                    "casino": "Casino",
+                    "bonuses": "Bonuses",
+                    "rate": "Rate",
+                    "freeSpins": "Free Spins",
+                    "moreInfo": "More Info",
+                    "get": "Get",
+                    "refresh": "Refresh"
+                },
+                "advantages": {
+                    "title": "Advantages",
+                    "advantagesBeforeText": "",
+                    "items": [
+                        "Verified resort information",
+                        "Guest-focused casino overview",
+                        "Strong integrated destination",
+                        "Clear analytical presentation"
+                    ],
+                    "advantagesAfterText": "",
+                    "knowMore": "Know more",
+                    "appTitle": "Galaxy Macau Mobile App",
+                    "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7267",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": 0,
+                    "imageXModifier": 0,
+                    "mobileAlt": "Galaxy Macau Mobile App",
+                    "mobileGooglePlayImageTitle": "Galaxy Macau Mobile App",
+                    "mobileIosImageTitle": "Galaxy Macau Mobile App"
+                },
+                "games": {
+                    "playNowText": "Play now",
+                    "title": "Popular Games",
+                    "allGames": "All Games"
+                },
+                "about": {
+                    "history": {
+                        "title": "About the Casino",
+                        "description1": "Galaxy Macau is our luxury integrated casino resort destination in Cotai, Macau, created with an Asian heart and designed for guests who want gaming, hospitality, dining, shopping, entertainment, and leisure in one connected resort environment. Our destination opened on May 15, 2011, with three hotel brands: Banyan Tree Macau, Hotel Okura Macau, and Galaxy Hotel.",
+                        "items": [
+                            "Our resort covers over 1.1 million square meters.",
+                            "Our guests can access around 5,000 rooms, suites, and villas.",
+                            "Our Grand Resort Deck covers 75,000 square meters."
+                        ],
+                        "description2": "Our casino resort expanded with Phase 2, launched on May 27, 2015, bringing Galaxy Macau and Broadway Macau to more than 1.1 million square meters. ",
+                        "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7268",
+                        "imageSizeModifier": 0,
+                        "imageYModifier": 0,
+                        "imageXModifier": 0,
+                        "imageAlt": "Galaxy Macau",
+                        "description3": "This stage added The Ritz-Carlton, Macau, JW Marriott Macau, and Broadway Hotel, strengthening our position as a major integrated resort destination for both leisure travelers and casino guests.Our resort continued to develop with Phase 3, including Raffles at Galaxy Macau, Galaxy International Convention Center, Galaxy Arena, and Andaz Macau. These additions support our broader entertainment, events, lifestyle, and hospitality offering, giving our guests more ways to enjoy Macau through one premium destination.\n\nToday, our casino resort combines 8 world-class luxury hotels and offers around 5,000 rooms, suites, and villas. Our guests can enjoy the 75,000-square-meter Grand Resort Deck, which features the 575-meter Skytop Adventure Rapids, the largest Skytop Wave Pool, and a 150-meter white sand beach, along with Galaxy Promenade and a wide selection of dining and shopping experiences."
+                    }
+                },
+                "custom": {
+                    "customHtml": {
+                        "title": "Galaxy Momentum",
+                        "description": "<p>With us, our casino is part of Galaxy Macau, a world-class luxury integrated resort destination in Macau with an Asian heart. We bring gaming, resort comfort, dining, shopping, entertainment, art, and leisure together in one confident experience. Our casino energy is supported by Galaxy Entertainment Group, one of the world’s leading resorts, hospitality, and gaming companies. Through Galaxy Casino S.A., we operate within Macau’s official gaming framework and welcome guests into a polished, vibrant resort environment.<\/p> <br> <p>We build the guest journey around the “World Class, Asian Heart” service philosophy. That means every visit with us is shaped by attentive hospitality, refined surroundings, and the pleasure of moving easily from one experience to another.<\/p> <br> <p>At our establishment, the gaming visit can be only the beginning. Guests can step from the casino atmosphere into luxury hotels, celebrated restaurants, immersive entertainment, premium shopping, resort attractions, and elegant relaxation spaces. Our Galaxy Macau setting on Cotai gives visitors the feeling of a complete destination. We are designed for guests who want a full Macau experience without needing to separate gaming, dining, entertainment, and leisure into different trips.<\/p> <br> <p>We offer around 5,000 rooms, suites, and villas across our world-class hotel portfolio, giving guests many ways to extend their stay with us. The resort experience stays consistent: comfort, style, and access to a wide range of on-site attractions.<\/p> <br> <p>Our Grand Resort Deck adds a strong leisure advantage to the Galaxy Macau experience. With 75,000 square meters of resort space, it brings water attractions, gardens, dining, and relaxation into the same destination as our casino.<\/p> <br> <p>The Grand Resort Deck includes the world’s longest Skytop Adventure Rapids at 575 meters and the world’s largest Skytop Wave Pool covering 8,000 square meters. These signature attractions give our resort a distinctive energy beyond the casino floor.<\/p> <br> <p>We also give guests a beach-style escape with white sand beaches at the resort deck. The setting allows visitors to combine gaming excitement with open-air leisure, water fun, and relaxed resort time. Dining is one of our strongest advantages. With more than 120 dining options across Galaxy Macau, we make it easy for guests to choose between fine dining, Macau flavors, Chinese regional cuisines, international dishes, cafés, bars, and lounges.<\/p> <br> <p>Our culinary world includes Michelin-starred dining and authentic delicacies featuring 18 Chinese provincial cuisines and 13 international cuisines. With us, the pleasure of a casino visit can naturally continue into a memorable meal.<\/p> <br> <p>Galaxy Promenade adds a luxury shopping dimension to our establishment. Across 100,000 square meters, we bring together more than 200 world-renowned brands, giving guests a premium retail experience close to the resort’s gaming, dining, and hotel spaces.<\/p> <br> <p>With Galaxy Ultimate, we make our guest relationship more rewarding through an electronic membership available through the WeChat Mini Program. Members can enjoy privileges at their fingertips, including discounts and selected offers across resort experiences. Galaxy Ultimate helps us add extra value to each visit. Members can unlock welcome offers, dining benefits, spa privileges, Broadway Theatre ticket advantages, online events, and prizes such as luxury hotel stays, dining coupons, and limited-edition gifts.<\/p> <br> <p>Entertainment is part of our rhythm. Galaxy Arena, G Box, Galaxy Cinemas, the Diamond Show, the Crystal Lobby Show, and Laserama create multiple ways to enjoy the resort before or after the casino experience.<\/p> <br> <p>We also bring art into the guest journey through GalaxyArt, a permanent contemporary art space on the first floor of Galaxy Promenade. With exhibitions, installations, immersive experiences, and workshops, we make discovery part of the visit.<\/p> <br> <p>Our casino belongs to a destination that balances excitement and sophistication. Guests can feel the pulse of gaming, then continue into dining, shopping, art, wellness, shows, cinema, and resort leisure without leaving the Galaxy Macau setting.<\/p> <br> <p>Every part of our establishment is designed to give visitors choice. Whether the priority is casino energy, a luxury stay, an elegant dinner, a resort-deck afternoon, or a night of entertainment, we make the experience smooth and full of possibilities.<\/p> <br> <div style=\"width:100%; max-width:100%; overflow:hidden;\"> <table style=\"width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;\">\n<tr>\n  <th style=\"width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Confirmed advantage\n  <\/th>\n  <th style=\"width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Macau detail\n  <\/th>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Licensed gaming group\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Entertainment Group develops and operates integrated resort, retail, dining, hotel, and gaming facilities in Macau.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Gaming concession\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Casino S.A. holds a Macau gaming concession valid from January 1, 2023, to December 31, 2032.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Resort scale\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Macau combines world-class luxury hotels and offers around 5,000 rooms, suites, and villas.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Grand Resort Deck\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    The Grand Resort Deck spans 75,000 square meters and features a 575-meter Skytop Adventure Rapids, an 8,000-square-meter Skytop Wave Pool, and white sand beaches.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Dining choice\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    The resort offers over 120 dining options, including Michelin-starred dining, 18 Chinese provincial cuisines, and 13 international cuisines.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Promenade\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Promenade is a 100,000-square-meter luxury lifestyle shopping destination with more than 200 world-renowned brands.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Ultimate\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Ultimate is the electronic membership of Galaxy Macau, offering privileges through the WeChat Mini Program.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    GalaxyArt\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    GalaxyArt is a permanent contemporary art space on the first floor of Galaxy Promenade, spanning over 6,500 sq. ft., with free admission.\n  <\/td>\n<\/tr>\n<\/table> <\/div> <br> <p>After the table, our Galaxy Macau experience continues with the same focus on variety and ease. We give guests a destination where casino excitement can naturally lead into dining, shopping, art, relaxation, and live entertainment. Our resort scale helps visitors plan the day around their own rhythm. A guest can enjoy our casino, pause for a Michelin-recognized meal, explore Galaxy Promenade, and return to the atmosphere of Galaxy Macau without losing momentum.<\/p> <br> <p>We make the stay especially attractive for guests who value convenience. Instead of treating entertainment, dining, leisure, and hotel comfort as separate choices, we connect them through one integrated resort experience. With Galaxy Ultimate, we keep the relationship with our guests active and rewarding. The membership brings offers, discounts, and resort privileges into one digital channel, making it simple to discover more value with us.<\/p> <br> <p>Our Grand Resort Deck gives Galaxy Macau a resort identity that feels bright, social, and memorable. It adds open-air leisure to the casino journey and creates a strong reason to spend more time with us.<\/p> <br> <p>We also make culture and creativity part of the visit through GalaxyArt. Guests who enjoy visual discovery can find contemporary exhibitions and immersive works right inside the Galaxy Promenade environment. Our casino stands within a destination built for complete enjoyment. We combine the energy of gaming with the comfort of luxury hospitality, the flavor of international dining, the polish of premium shopping, and the spectacle of entertainment.<\/p>"
+                    }
+                },
+                "softwareProviders": {
+                    "title": "Software Providers"
+                },
+                "custom_2": {
+                    "customHtml_2": {
+                        "title": "Easy Galaxy",
+                        "description": "<p>With us, visiting Galaxy Macau is designed to feel practical, connected, and enjoyable from the first moment. Our establishment is located in Cotai, Macau, with strong transport links and clear access for guests arriving from major points around the city.<\/p> <br> <p>Our official address is Galaxy Macau Integrated Resort, Estrada da Baia de Nossa Senhora da Esperanca, s\/n, Cotai, Macau. This Cotai location places our casino within one of Macau’s major resort and entertainment areas.<\/p> <br> <p>We make arrival smoother with complimentary shuttle buses. Guests can use our shuttle service to travel to and from Galaxy Macau, including routes connected with StarWorld Hotel, Broadway Macau, Border Gate, ferry terminals, the airport, Hengqin Port, and the Hong Kong-Zhuhai-Macau Bridge.<\/p> <br> <p>For visitors coming through Border Gate, our shuttle route runs between Border Gate and Galaxy Macau. This gives guests a simple way to reach our casino and resort from one of Macau’s busiest entry points.<\/p> <br> <p>We also connect with Taipa Ferry Terminal, Macau International Airport, Hengqin Port, and Macau Ferry Terminal routes. These transport links help our guests build a smooth arrival plan, whether the visit begins by ferry, plane, bridge, or land crossing. Inside the resort, the practical experience continues through dining variety. Guests can explore restaurants and bars across different styles, including contemporary Italian cuisine, classic Cantonese dining, Japanese fine dining, cafés, lounge concepts, and relaxed local flavors.<\/p> <br> <p>Our restaurant list includes names such as 8½ Otto e Mezzo BOMBANA, Lai Heen, Sushi Kissho by Miyakawa at Raffles at Galaxy Macau, Teppanyaki Shou, House of Origin, CHA BEI, Pak Loh Chiu Chow Restaurant, Bei Shan Lou, Yamazato Japanese Fine Dining, and Long Bar.<\/p> <br> <p>Long Bar at Raffles at Galaxy Macau brings a sophisticated bar experience to our resort. It is presented as the world’s first Raffles speakeasy to carry the Long Bar name and features classic cocktails alongside Macau-exclusive drinks.<\/p> <br> <p>Galaxy Cinemas gives guests another way to extend the visit. We offer cinema hours from 10:30 to midnight Monday to Friday, and from 9:00 to midnight on Saturdays, Sundays, and public holidays. For live and flexible entertainment, G Box gives us an intimate black box venue. It can host up to 850 guests and adapts to stand-up comedy, live music, family theater, private events, and different performance setups.<\/p> <br> <p>Galaxy Arena adds a large-scale events dimension to our establishment. The venue is part of the Galaxy Macau entertainment offering and is used for concerts, sports, and major shows listed through our official tickets and shows program.<\/p> <br> <p>We also bring free visual spectacle into the resort environment. Laserama lights up Galaxy Macau outdoors with state-of-the-art beams synchronized with music, while the Diamond Show and Crystal Lobby Show create signature moments inside our lobby spaces. The Diamond Show takes place in the Diamond Lobby and combines light, sound, water, and visual artistry. It is one of the resort experiences that gives visitors a memorable pause before or after time at our casino.<\/p> <br> <p>The Crystal Lobby Show adds another theatrical moment with 380,000 precision-cut crystals, 146,000 individually programmed points of light, rotating chandeliers, a kinetic ceiling, music, and fountain effects.<\/p> <br> <p>For guests who want wellness during their stay, our spa and relaxation offering includes Banyan Tree Spa Macau, The Ritz-Carlton Spa, Macau, and Foot Hub. These spaces bring calm, therapeutic treatments, and premium comfort into the Galaxy Macau experience.<\/p> <br> <p>Banyan Tree Spa Macau is located in Banyan Tree Macau and spans 3,400 square meters. With a wide menu of treatments and professional therapists, it supports the resort’s role as a complete holiday destination.<\/p> <br> <p>We also take responsible gaming seriously as part of our guest experience. Galaxy Entertainment Group was among the first integrated resort enterprises in Macau to have its casinos pass the Responsible Gambling Performance Indicators set by the Macau SAR Government.<\/p> <br> <p>Casino Galaxy Macau, Casino StarWorld, and Casino Broadway were recognized as “Responsible Gaming Implementation Model Units” in 2022 and 2023. With us, entertainment is supported by a structured responsible gaming approach.<\/p> <br> <p>Our practical strength is simple: guests can arrive easily, move around the resort comfortably, enjoy dining and bars, add shows or cinema, relax at the spa, and experience our casino within one connected Galaxy Macau destination.<\/p> <br> <div style=\"width:100%; max-width:100%; overflow:hidden;\"> <table style=\"width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;\">\n<tr>\n  <th style=\"width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Confirmed information\n  <\/th>\n  <th style=\"width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Useful detail\n  <\/th>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Address\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Macau Integrated Resort, Estrada da Baia de Nossa Senhora da Esperanca, s\/n, Cotai, Macau.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    General transport\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Macau is located in Cotai, Macau, with transport links including complimentary shuttle bus service, taxis, and public buses.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Border Gate shuttle\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    The Border Gate route to and from Galaxy Macau operates from 09:00 to 23:30, with an average frequency of 5–15 minutes and around 25 minutes’ drive.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Taipa Ferry Terminal shuttle\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Shuttle service from Taipa Ferry Terminal to Galaxy Macau runs 09:00–23:00, and from Galaxy Macau 09:15–23:15.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Airport shuttle\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    The Macau International Airport route to Galaxy Macau runs 10:00–21:00, and from Galaxy Macau 10:15–20:45.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Galaxy Cinemas\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Operation hours are Monday to Friday 10:30–00:00, and Saturday, Sunday, and public holidays 09:00–00:00.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    G Box\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    G Box hosts up to 850 guests and is located at 1003, 1\/F, Pearl Lobby.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Laserama\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Laserama takes place outdoors at Galaxy Macau from 19:45 to 22:15, every 30 minutes daily.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Responsible gaming\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Casino Galaxy Macau was recognized as a “Responsible Gaming Implementation Model Unit” in 2022 and 2023.\n  <\/td>\n<\/tr>\n<\/table> <\/div> <br> <p>After the table, our practical advantages remain centered on convenience. We help guests reach our casino through well-defined transport routes and then give them enough on-site variety to keep the visit flowing smoothly. Our Cotai address places Galaxy Macau in a resort district made for entertainment, hospitality, and leisure. Guests can arrive for gaming and naturally discover restaurants, bars, shows, cinema, shopping, and spa experiences in the same destination.<\/p> <br> <p>The complimentary shuttle network gives our establishment strong access from key Macau arrival points. This makes our casino experience easier to plan for visitors coming through Border Gate, ferry terminals, the airport, Hengqin Port, or connected Galaxy properties.<\/p> <br> <p>Dining adds another layer of comfort to the guest journey. Whether visitors want a refined meal, a lounge experience, a café stop, Japanese cuisine, Cantonese fine dining, or Italian flavors, we keep strong choices close to the casino environment.<\/p> <br> <p>Our entertainment schedule and venues give each visit a sense of occasion. From large-scale shows at Galaxy Arena to intimate performances at G Box and cinematic comfort at Galaxy Cinemas, we give guests many ways to shape the evening.<\/p> <br> <p>We also make visual entertainment part of everyday resort movement. Laserama, the Diamond Show, and the Crystal Lobby Show create memorable moments that visitors can enjoy as part of the wider Galaxy Macau atmosphere. With responsible gaming recognition, spa facilities, premium transport access, and a wide on-site lifestyle offering, we make Galaxy Macau feel polished, practical, and complete for guests who want more than a single casino stop.<\/p>"
+                    }
+                },
+                "faq": {
+                    "title": "Frequently Asked Questions",
+                    "items": [
+                        {
+                            "title": "What is Galaxy Macau?",
+                            "answer": "Galaxy Macau is our luxury integrated casino resort destination in Macau."
+                        },
+                        {
+                            "title": "When did Galaxy Macau open?",
+                            "answer": "Galaxy Macau opened on May 15, 2011."
+                        },
+                        {
+                            "title": "How many hotels does Galaxy Macau include?",
+                            "answer": "Our resort combines 8 world-class luxury hotels."
+                        },
+                        {
+                            "title": "How many rooms does Galaxy Macau offer?",
+                            "answer": "Our casino resort offers around 5,000 rooms, suites, and villas."
+                        },
+                        {
+                            "title": "What major leisure feature does Galaxy Macau offer?",
+                            "answer": "Our guests can enjoy the 75,000-square-meter Grand Resort Deck."
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
